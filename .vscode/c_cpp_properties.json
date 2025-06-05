@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "C:/MinGW/mingw32/include",  // Aquí va la ruta a tus headers
+        "${workspaceFolder}/**"     // También incluye tus archivos de trabajo
+      ],
+      "compilerPath": "C:/MinGW/bin/g++.exe",  // Aquí va la ruta a tu compilador
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-gcc-x64"
+    }
+  ],
+  "version": 4
+}
